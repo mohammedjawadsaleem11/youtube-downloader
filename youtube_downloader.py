@@ -1,0 +1,16 @@
+from pytube import YouTube
+import time
+link = input("Enter YouTube Link: ")
+time.sleep(1)
+print("Connecting to YouTube Server...")
+time.sleep(1)
+print(".........")
+time.sleep(1)
+print("Extracting Video Information")
+print("Downloading......\n......\n......")
+YouTube(link).streams.first().download()
+time.sleep(3)
+print("Yep Download Done!")
+time.sleep(2)
+print("Find Your Video @ This Location\n\n:- C:/Users/Mohammed Jawad/AppData/Roaming/JetBrains/PyCharmCE2021.1/scratches/")
+print("&copy Mohammed Jawad Saleem")
